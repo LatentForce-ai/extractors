@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "latentforce-extractors"
+version = "0.1.0"
+dependencies = [
+  "requests",
+  "openai",
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Aravind Jayendran", email = "aravind@latantforce.ai"},
+]
+maintainers = [
+  {name = "Aravind Jayendran", email = "aravind@latantforce.ai"}
+]
+description = "Python client for Extractors.ai"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["LatentForce.ai", "Extractors.ai", "Extractors", "Python-Client"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+
+[project.urls]
+Homepage = "https://extractors.ai"
+Documentation = "https://docs.extractors.ai"
+Repository = "https://extractors.ai"
